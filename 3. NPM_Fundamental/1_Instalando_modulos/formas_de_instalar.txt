@@ -1,0 +1,4 @@
+- Podemos instalar módulos com "npm install <nome>" ou, simplesmente, "npm i <nome>".
+
+- Também podemos instalar um módulo como dev, que será utilizado apenas para o ambiente de desenvolvimento.
+Então, por exemplo, podemos instalar dessa forma "npm i --save-dev <nome>"
