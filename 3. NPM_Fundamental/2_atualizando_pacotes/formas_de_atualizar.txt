@@ -1,0 +1,7 @@
+- Utilizando o comando "npm update" será feita a verificação de atualizações pendentes, de modo geral.
+
+- Para a atualização de um pacote específico, basta digitar "npm update <nome do pacote>".
+
+- Quando sabemos que há atualização de um pacote mas o comando acima não o atualiza, utilizamos o 
+comando "npx npm-check-updates -u"
+

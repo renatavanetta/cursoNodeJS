@@ -1,0 +1,9 @@
+- Um pacote global não fica salco na pasta node_modules, mas sim no computador do usuário.
+
+- Podemos acessa-lo, assim, em qualquer local via terminal.
+
+- Utilizamos a flag "-g" em node. Assim, para instalar um pacote, damos o comando "npm i -g <nome_do_pacote>".
+
+- Alguns pacotes não serão executados quando instalados de forma global, pois requerem arquivos para serem executados.
+Dessa forma, devemos, após a instalação global, digitar o comando "npm link <nome do pacote>". Assim, os arquivos serão linkados ao projeto, 
+sendo possivel sua execução. 

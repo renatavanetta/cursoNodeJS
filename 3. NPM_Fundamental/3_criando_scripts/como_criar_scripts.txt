@@ -1,0 +1,4 @@
+- No arquivo package.json, batas adicionar um script na área dedicada, como por exemplo,
+"start": "node index.js"
+
+- Para executa-lo, basta digitar o comdando "npm run <nome script>". O comdando start roda apenas digitando "npm start".
