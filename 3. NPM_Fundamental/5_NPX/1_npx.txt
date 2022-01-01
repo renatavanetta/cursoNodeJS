@@ -1,0 +1,4 @@
+- Alguns pacotes sao scripts executáveis, como por exemplo a instalação do React, e a instalação é feita pelo npx.
+
+- Exemplo: "npx cowsay "Hello World!". 
+

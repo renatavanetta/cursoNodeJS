@@ -1,0 +1,3 @@
+- Para remover um pacote basta digitar o comando "npm unistall <nome do pacote>".
+
+- Quando desinstalado, sairá do node_modules e no package.json
