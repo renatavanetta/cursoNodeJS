@@ -112,7 +112,7 @@ app.post('/books/remove/:id', (req, res) => {
     const bookId = req.params.id
 
     const sqlInstruction = `DELETE FROM books WHERE ?? = ?`
-    const data = ['id', id]
+    const data = ['id', bookId]
 
     pool.query(sqlInstruction, data, function(err) {
         if(err){
